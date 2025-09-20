@@ -1,3 +1,4 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/E6j2spNg)
 # FastAPI 세미나 과제 2
 
 본 과제에서는 세미나에서 다룬 내용에 대한 추가 조사 및 응용을 요구합니다.  
@@ -210,7 +211,7 @@
 
 ##### 요청 예시
 - 다음의 Field가 헤더에 포함됨
-	```HTTP
+	```
 	Authorization: Bearer refresh_token(JWT)값
 	```
 
@@ -234,7 +235,7 @@
 
 ##### 요청 예시
 - 다음의 Field가 헤더에 포함됨
-	```HTTP
+	```
 	Authorization: Bearer refresh_token(JWT)값
 	```
 
@@ -257,12 +258,12 @@
 - 서버는 생성한 `sid`(str)를 클라이언트의 쿠키로 설정합니다.
 	- 세션은 `LONG_SESSION_LIFESPAN`(분) 동안 유효한 것으로 합니다.
 - **요청 예시**
-		```json
-		{
-			"email": "waffle@example.com",
-			"password": "password1234"
-		}
-		```
+	```json
+	{
+		"email": "waffle@example.com",
+		"password": "password1234"
+	}
+	```
 
 - **응답**
 	- 성공 응답
